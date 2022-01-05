@@ -1,0 +1,21 @@
+img {
+  width: 280px;
+  height: 280px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 20px;
+}
+.el-11 {
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+img:hover {
+  background-color: blue;
+}
+.container:hover {
+  color: blue;
+}

@@ -1,0 +1,22 @@
+* {
+  background-color: aquamarine;
+}
+
+p {
+  font-size: 25px;
+
+  color: #f728f7;
+  font-style: italic;
+  font-weight: bold;
+}
+img {
+  width: 400px;
+  height: 500px;
+}
+.hum {
+  display: inline;
+}
+a:hover {
+  background-color: coral;
+  padding: 5px;
+}
